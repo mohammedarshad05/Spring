@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa05453-8be2-4907-b23b-a8eb4f459ffa" name="Changes" comment="" />
+    <list default="true" id="3aa05453-8be2-4907-b23b-a8eb4f459ffa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/bookapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookapp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/arsh/products/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/main/java/com/arsh/products/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/arsh/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/main/java/com/arsh/products/service/ProductService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -22,6 +36,8 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/code/Spring/products&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -50,6 +66,11 @@
       <workItem from="1747825866619" duration="51000" />
       <workItem from="1747825938247" duration="47000" />
       <workItem from="1747830034371" duration="41000" />
+      <workItem from="1747889007617" duration="24000" />
+      <workItem from="1747994083026" duration="94000" />
+      <workItem from="1747994205988" duration="289000" />
+      <workItem from="1747995696449" duration="18000" />
+      <workItem from="1747999323545" duration="9000" />
     </task>
     <servers />
   </component>
