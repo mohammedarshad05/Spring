@@ -13,7 +13,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     List<Product> findByPriceBetween(int startPrice, int endPrice);
 
 
-    List<Product> findByTitleContainingIgnoreCaseAndPriceBetween(String searchTitle, int startPrice, int endPrice);
+    List<Product> findByTitleContainingIgnoreCaseAndPriceBetween(String title, double price, double price2);
 
     List<Product> findByBrandIgnoreCase(String brand);
 
@@ -21,5 +21,10 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 
     List<Product> findByBrandAndCategoryIgnoreCase(String brand, String category);
 
-    List<Product> findByTitleAndBrandAndCategoryIgnoreCase(String title, String brand, String category);
+    List<Product> findByTitleAndBrandAndCategoryIgnoreCase(String searchTerm, String brand, String category);
+
+    List<Product> findByCategoryIgnoreCaseOrderByTitle(String category);
+
+
+    List<Product> findAllProductsByOrderByPriceDesc();
 }

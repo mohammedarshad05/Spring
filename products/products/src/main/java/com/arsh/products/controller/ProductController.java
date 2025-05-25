@@ -56,13 +56,23 @@ public class ProductController {
         return productService.getProductsByPriceRange(startPrice,endPrice);
     }
     @GetMapping("/title-brand-cate")
-    public List<Product> getProductsByTitleBrandCategory(@RequestParam String title, @RequestParam String brand, @RequestParam String category) {
-        return productService.getProductsByTitleBrandCategory(title,brand,category);
+    public List<Product> getProductsByTitleBrandCategory(@RequestParam String searchTerm, @RequestParam String brand, @RequestParam String category) {
+        return productService.getProductsByTitleBrandCategory(searchTerm,brand,category);
     }
 
     @GetMapping("/title-price")
-    public List<Product> getProductsByTitleAndPriceRange(@RequestParam String searchTitle, @RequestParam int startPrice,@RequestParam int endPrice) {
-        return productService.getProductsByTitleAndPriceRange(searchTitle,startPrice,endPrice);
+    public List<Product> getProductsByTitleAndPriceRange(@RequestParam String searchTerm, @RequestParam int startPrice,@RequestParam int endPrice) {
+        return productService.getProductsByTitleAndPriceRange(searchTerm,startPrice,endPrice);
+    }
+
+    @GetMapping("title-category")
+    public List<Product> getProductsByCategoryOrderByTitle(@RequestParam String category) {
+        return productService.getProductsByCategory0rderByTitle(category);
+    }
+
+    @GetMapping("/price-desc")
+    public List<Product> getProductsByPriceDesc() {
+        return productService.getProductsByPriceDesc();
     }
 
     @PutMapping("/{id}")

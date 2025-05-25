@@ -40,8 +40,8 @@ public class ProductService {
     }
 
 
-    public List<Product> getProductsByTitleAndPriceRange(String searchTitle, int startPrice, int endPrice) {
-        return productRepository.findByTitleContainingIgnoreCaseAndPriceBetween(searchTitle,startPrice,endPrice);
+    public List<Product> getProductsByTitleAndPriceRange(String searchTerm, int startPrice, int endPrice) {
+        return productRepository.findByTitleContainingIgnoreCaseAndPriceBetween(searchTerm,startPrice,endPrice);
 
     }
 
@@ -59,10 +59,17 @@ public class ProductService {
     return productRepository.findByBrandAndCategoryIgnoreCase(brand,category);
     }
 
-    public List<Product> getProductsByTitleBrandCategory(String title, String brand, String category) {
-    return productRepository.findByTitleAndBrandAndCategoryIgnoreCase(title,brand,category);
+    public List<Product> getProductsByTitleBrandCategory(String searchTerm, String brand, String category) {
+    return productRepository.findByTitleAndBrandAndCategoryIgnoreCase(searchTerm,brand,category);
     }
 
+    public List<Product> getProductsByCategory0rderByTitle(String category) {
+        return productRepository.findByCategoryIgnoreCaseOrderByTitle(category);
+    }
+
+    public List<Product> getProductsByPriceDesc() {
+     return productRepository.findAllProductsByOrderByPriceDesc();
+    }
 
     public Product createProduct(Product product) {
         return productRepository.save(product);
