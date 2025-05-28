@@ -74,6 +74,14 @@ public class ProductController {
     public List<Product> getProductsByPriceDesc() {
         return productService.getProductsByPriceDesc();
     }
+    @GetMapping("/brand-price")
+    public List<Product> findByBrandAndPriceBetween(String brand, Double minPrice, Double maxPrice){
+        return productService.findByBrandAndPriceBetween(brand,minPrice,maxPrice);
+    }
+    @GetMapping("/title-prefix")
+    public List<Product> findByTitleStartingWith(@RequestParam String prefix) {
+        return productService.findByTitleStartingWith(prefix);
+    }
 
     @PutMapping("/{id}")
     public Product updateProduct(@PathVariable Long id, @RequestBody Product productDetails) {

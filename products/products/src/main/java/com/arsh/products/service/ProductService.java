@@ -70,6 +70,14 @@ public class ProductService {
     public List<Product> getProductsByPriceDesc() {
      return productRepository.findAllProductsByOrderByPriceDesc();
     }
+    public List<Product> findByBrandAndPriceBetween(String brand,double mintPrice, double maxPrice) {
+        return productRepository.findByBrandAndPriceBetween(brand,mintPrice,maxPrice);
+    }
+
+
+    public List<Product> findByTitleStartingWith(String prefix) {
+        return productRepository.findByTitleStartingWith(prefix);
+    }
 
     public Product createProduct(Product product) {
         return productRepository.save(product);
@@ -87,7 +95,6 @@ public class ProductService {
     public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
-
 
 
 }
