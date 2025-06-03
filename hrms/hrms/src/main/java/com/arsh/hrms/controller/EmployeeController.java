@@ -19,7 +19,7 @@ public class EmployeeController {
     }
     @GetMapping
     public List<Employee> getAllEmployees() {
-        return employeeService.getEmployees();
+        return employeeService.getAllEmployees();
     }
 
     @PostMapping

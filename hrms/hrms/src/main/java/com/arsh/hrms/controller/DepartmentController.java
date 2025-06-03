@@ -17,8 +17,8 @@ public class DepartmentController {
         this.departmentService = departmentService;
     }
     @GetMapping
-    public List<Department> getAll() {
-        return departmentService.getDepartments();
+    public List<Department> getAllDepartments() {
+        return departmentService.getAllDepartments();
     }
 
     @PostMapping

@@ -4,17 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1adba61-1d2f-40dd-b7f3-ddb59591c030" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bookapp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="541dba07-837f-4fd1-9323-d8e71653a2b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/model/ResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/model/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../securitydemo/src/main/java/com/arsh/securitydemo/controller/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/Book.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/java/com/arsh/Book/BookApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/java/com/arsh/Book/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book/Book/src/test/java/com/arsh/Book/BookApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/BookappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/BookappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookapp/src/test/java/com/arsh/bookapp/BookappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/test/java/com/arsh/bookapp/BookappApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/java/com/example/demo/repository/DemoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../products/products/data/products.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/data/products.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +96,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2xUagtyR4tg2SLGm4rYuFxAxo9G" />
+  <component name="ProjectId" id="2xlrhJgKbCewojqA76pkTXhXeNj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,10 +109,16 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BookAppApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/code/Spring/bookapp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/Spring/bookApp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,9 +128,9 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="BookappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="bookapp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arsh.bookapp.BookappApplication" />
+    <configuration name="BookAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bookApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.arsh.bookApp.BookAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,17 +146,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1adba61-1d2f-40dd-b7f3-ddb59591c030" name="Changes" comment="" />
-      <created>1747995220595</created>
+      <changelist id="541dba07-837f-4fd1-9323-d8e71653a2b0" name="Changes" comment="" />
+      <created>1748523619224</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747995220595</updated>
-      <workItem from="1747995222068" duration="1198000" />
-      <workItem from="1747999165955" duration="156000" />
-      <workItem from="1747999814380" duration="94000" />
-      <workItem from="1748061365975" duration="359000" />
-      <workItem from="1748062084966" duration="21000" />
-      <workItem from="1748062149745" duration="639000" />
+      <updated>1748523619224</updated>
+      <workItem from="1748523620483" duration="1735000" />
+      <workItem from="1748607139380" duration="3692000" />
+      <workItem from="1748891584617" duration="1521000" />
     </task>
     <servers />
   </component>

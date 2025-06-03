@@ -1,8 +1,11 @@
 package com.arsh.products.controller;
 
 import com.arsh.products.model.Product;
+import com.arsh.products.model.ResponseMessage;
 import com.arsh.products.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,12 +28,24 @@ public class ProductController {
     }
 
     @GetMapping("/{id}")
-    public Product getProductById(@PathVariable Long id) {
-            return productService.getProductById(id);
+    public ResponseEntity<?> getProductById(@PathVariable Long id) {
+            Product product = productService.getProductById(id);
+            if (product == null) {
+                ResponseMessage responseMessage = new ResponseMessage();
+                responseMessage.setMessage("Product not found with id " + id);
+                return ResponseEntity.status(HttpStatus.NOT_FOUND).body(responseMessage);
+            }else {
+                return ResponseEntity.ok(product);
+            }
     }
     @PostMapping
-    public Product createProduct(@RequestBody Product product) {
-        return productService.createProduct(product);
+    public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+        Product createdproduct = productService.createProduct(product);
+        if (createdproduct == null) {
+            return ResponseEntity.status(HttpStatus.CREATED).body(createdproduct);
+        } else {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+        }
     }
 
     @GetMapping("/search")
@@ -84,12 +99,22 @@ public class ProductController {
     }
 
     @PutMapping("/{id}")
-    public Product updateProduct(@PathVariable Long id, @RequestBody Product productDetails) {
-        return productService.updateProduct(id, productDetails);
+    public ResponseEntity<Product> updateProduct(@PathVariable Long id, @RequestBody Product productDetails) {
+        Product updatedProduct = productService.updateProduct(id, productDetails);
+   if (updatedProduct == null) {
+       return ResponseEntity.notFound().build();
+   }else{
+       return ResponseEntity.ok(updatedProduct);
+   }
     }
     @DeleteMapping("{id}")
-    public void deleteProduct(@PathVariable Long id) {
-        productService.deleteProduct(id);
+    public ResponseEntity<Void> deleteProduct(@PathVariable Long id) {
+       boolean deleted = productService.deleteProduct(id);
+       if (deleted) {
+           return ResponseEntity.noContent().build();
+       }else {
+           return ResponseEntity.notFound().build();
+       }
     }
 
 

@@ -1,25 +1,35 @@
 package com.arsh.hrms.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
+@Table(name = "Dept")
 public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(name = "name", nullable = false ,length = 100)
     private String name;
 
-    @OneToMany(mappedBy = "department", fetch = FetchType.LAZY, cascade =  CascadeType.ALL)
+    @JsonManagedReference
+    @OneToMany(mappedBy = "department",  cascade =  CascadeType.ALL,fetch = FetchType.LAZY)
     private List<Employee> employees;
 
-    public Department() {}
+    public Department() {
+    }
+    public Department(Long id,String name) {
+        this.id = id;
+        this.name = name;
+    }
 
-    public Department(List<Employee> employees, String name, Long id) {
-        this.employees = employees;
+    public Department(Long id,String name,List<Employee> employees) {
         this.name = name;
         this.id = id;
+        this.employees = employees;
     }
 
     public Long getId() {

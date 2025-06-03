@@ -1,38 +1,40 @@
-package com.arsh.bookapp.model;
+package com.arsh.bookApp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Book {
-
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.  IDENTITY)
+
+    private int id;
     private String title;
     private String author;
-    private double price;
     private String isbn;
+    private double price;
+    private String publisher;
 
     public Book() {
 
     }
 
-    public Book(Long id, String title, String author, double price, String isbn) {
+    public Book(int id, String title, String author, String isbn, double price, String publisher) {
         this.id = id;
         this.title = title;
         this.author = author;
-        this.price = price;
         this.isbn = isbn;
+        this.price = price;
+        this.publisher = publisher;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -52,6 +54,14 @@ public class Book {
         this.author = author;
     }
 
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
     public double getPrice() {
         return price;
     }
@@ -60,11 +70,11 @@ public class Book {
         this.price = price;
     }
 
-    public String getIsbn() {
-        return isbn;
+    public String getPublisher() {
+        return publisher;
     }
 
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
     }
 }

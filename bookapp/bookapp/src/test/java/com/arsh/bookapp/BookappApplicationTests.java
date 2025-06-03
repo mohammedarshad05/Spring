@@ -1,10 +1,10 @@
-package com.arsh.bookapp;
+package com.arsh.bookApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookappApplicationTests {
+class BookAppApplicationTests {
 
 	@Test
 	void contextLoads() {
