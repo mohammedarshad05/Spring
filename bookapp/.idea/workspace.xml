@@ -5,79 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="541dba07-837f-4fd1-9323-d8e71653a2b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/model/ResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/model/UserPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../securitydemo/src/main/java/com/arsh/securitydemo/controller/SecurityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/Book.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/java/com/arsh/Book/BookApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/java/com/arsh/Book/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Book/Book/src/test/java/com/arsh/Book/BookApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/BookappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/BookappApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/java/com/arsh/bookapp/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookapp/src/test/java/com/arsh/bookapp/BookappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookapp/src/test/java/com/arsh/bookapp/BookappApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/java/com/example/demo/repository/DemoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/java/com/arsh/hrms/service/EmployeeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hrms/hrms/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../hrms/hrms/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../products/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/products/data/products.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/data/products.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../products/products/src/main/java/com/arsh/products/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../security/src/main/java/com/arsh/security/service/SecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../security/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +88,8 @@
       <workItem from="1748523620483" duration="1735000" />
       <workItem from="1748607139380" duration="3692000" />
       <workItem from="1748891584617" duration="1521000" />
+      <workItem from="1748921847234" duration="2602000" />
+      <workItem from="1749037642404" duration="21000" />
     </task>
     <servers />
   </component>
